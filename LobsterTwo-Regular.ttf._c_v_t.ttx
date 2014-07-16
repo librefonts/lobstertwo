@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <cvt>
+    <cv index="0" value="20"/>
+    <cv index="1" value="36"/>
+    <cv index="2" value="435"/>
+    <cv index="3" value="679"/>
+    <cv index="4" value="54"/>
+    <cv index="5" value="100"/>
+    <cv index="6" value="109"/>
+    <cv index="7" value="50"/>
+    <cv index="8" value="64"/>
+    <cv index="9" value="0"/>
+    <cv index="10" value="6"/>
+    <cv index="11" value="-244"/>
+    <cv index="12" value="6"/>
+    <cv index="13" value="500"/>
+    <cv index="14" value="31"/>
+    <cv index="15" value="738"/>
+    <cv index="16" value="16"/>
+  </cvt>
+
+</ttFont>

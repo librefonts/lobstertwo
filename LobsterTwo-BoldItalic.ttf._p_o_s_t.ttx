@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <post>
+    <formatType value="2.0"/>
+    <italicAngle value="0.0"/>
+    <underlinePosition value="-75"/>
+    <underlineThickness value="50"/>
+    <isFixedPitch value="0"/>
+    <minMemType42 value="0"/>
+    <maxMemType42 value="0"/>
+    <minMemType1 value="0"/>
+    <maxMemType1 value="0"/>
+    <psNames>
+      <!-- This file uses unique glyph names based on the information
+           found in the 'post' table. Since these names might not be unique,
+           we have to invent artificial names in case of clashes. In order to
+           be able to retain the original information, we need a name to
+           ps name mapping for those cases where they differ. That's what
+           you see below.
+            -->
+    </psNames>
+    <extraNames>
+      <!-- following are the name that are not taken from the standard Mac glyph order -->
+      <psName name="A.salt"/>
+      <psName name="Aogonek"/>
+      <psName name="B.salt"/>
+      <psName name="Ccircumflex"/>
+      <psName name="E.salt"/>
+      <psName name="E_x"/>
+      <psName name="Eogonek"/>
+      <psName name="Euro"/>
+      <psName name="F_i"/>
+      <psName name="IJ"/>
+      <psName name="N.salt"/>
+      <psName name="Nacute"/>
+      <psName name="Ohungarumlaut"/>
+      <psName name="Sacute"/>
+      <psName name="T_h"/>
+      <psName name="T_i"/>
+      <psName name="Uhungarumlaut"/>
+      <psName name="Zacute"/>
+      <psName name="Zdotaccent"/>
+      <psName name="a.end"/>
+      <psName name="a_x"/>
+      <psName name="a_x.end"/>
+      <psName name="a_z"/>
+      <psName name="aacute.end"/>
+      <psName name="aogonek"/>
+      <psName name="b_s"/>
+      <psName name="b_s.end"/>
+      <psName name="b_s_x"/>
+      <psName name="b_s_z"/>
+      <psName name="c.end"/>
+      <psName name="c_x"/>
+      <psName name="c_z"/>
+      <psName name="ccircumflex"/>
+      <psName name="circunflex"/>
+      <psName name="d.end"/>
+      <psName name="dcroat"/>
+      <psName name="dotlessi.end"/>
+      <psName name="e.end"/>
+      <psName name="e_x"/>
+      <psName name="e_x.end"/>
+      <psName name="e_z"/>
+      <psName name="eacute.end"/>
+      <psName name="eacute_x"/>
+      <psName name="eogonek"/>
+      <psName name="f_f_t"/>
+      <psName name="f_i_x"/>
+      <psName name="f_i_z"/>
+      <psName name="f_l_x"/>
+      <psName name="f_l_z"/>
+      <psName name="f_t"/>
+      <psName name="f_u"/>
+      <psName name="f_u.end"/>
+      <psName name="f_x"/>
+      <psName name="ff"/>
+      <psName name="ffi"/>
+      <psName name="ffl"/>
+      <psName name="fi.end"/>
+      <psName name="fl.end"/>
+      <psName name="g.end"/>
+      <psName name="g_p"/>
+      <psName name="g_x"/>
+      <psName name="g_z"/>
+      <psName name="h.end"/>
+      <psName name="i.end"/>
+      <psName name="i_x"/>
+      <psName name="i_x.end"/>
+      <psName name="i_z"/>
+      <psName name="iacute.end"/>
+      <psName name="iacute_x"/>
+      <psName name="iacute_z"/>
+      <psName name="ij"/>
+      <psName name="ij.end"/>
+      <psName name="j.end"/>
+      <psName name="j_x"/>
+      <psName name="j_z"/>
+      <psName name="k.end"/>
+      <psName name="k.salt"/>
+      <psName name="l.end"/>
+      <psName name="l_x"/>
+      <psName name="l_z"/>
+      <psName name="m.end"/>
+      <psName name="m_x"/>
+      <psName name="m_z"/>
+      <psName name="n.end"/>
+      <psName name="n_z"/>
+      <psName name="nacute"/>
+      <psName name="o.end"/>
+      <psName name="o_ae"/>
+      <psName name="o_s"/>
+      <psName name="o_s.end"/>
+      <psName name="o_s_x"/>
+      <psName name="o_s_z"/>
+      <psName name="o_x"/>
+      <psName name="oacute.end"/>
+      <psName name="oacute_s"/>
+      <psName name="oacute_s.end"/>
+      <psName name="oacute_s_x"/>
+      <psName name="oacute_s_z"/>
+      <psName name="oacute_x"/>
+      <psName name="ohungarumlaut"/>
+      <psName name="p.calt"/>
+      <psName name="p.salt"/>
+      <psName name="periodcentered"/>
+      <psName name="r_x"/>
+      <psName name="r_z"/>
+      <psName name="s.end"/>
+      <psName name="s_x"/>
+      <psName name="s_z"/>
+      <psName name="sacute"/>
+      <psName name="t.end"/>
+      <psName name="t_x"/>
+      <psName name="t_z"/>
+      <psName name="u.end"/>
+      <psName name="u_v"/>
+      <psName name="u_x"/>
+      <psName name="u_x.end"/>
+      <psName name="uacute.end"/>
+      <psName name="uhungarumlaut"/>
+      <psName name="uni00AD"/>
+      <psName name="x.end"/>
+      <psName name="y.end"/>
+      <psName name="y_p"/>
+      <psName name="y_x"/>
+      <psName name="y_z"/>
+      <psName name="zacute"/>
+      <psName name="zdotaccent"/>
+    </extraNames>
+  </post>
+
+</ttFont>

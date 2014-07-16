@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<ttFont ttLibVersion="2.4">
+
+  <GSUB>
+    <Version value="1.0"/>
+    <ScriptList>
+      <!-- ScriptCount=1 -->
+      <ScriptRecord index="0">
+        <ScriptTag value="latn"/>
+        <Script>
+          <DefaultLangSys>
+            <ReqFeatureIndex value="65535"/>
+            <!-- FeatureCount=3 -->
+            <FeatureIndex index="0" value="0"/>
+            <FeatureIndex index="1" value="1"/>
+            <FeatureIndex index="2" value="2"/>
+          </DefaultLangSys>
+          <!-- LangSysCount=0 -->
+        </Script>
+      </ScriptRecord>
+    </ScriptList>
+    <FeatureList>
+      <!-- FeatureCount=3 -->
+      <FeatureRecord index="0">
+        <FeatureTag value="aalt"/>
+        <Feature>
+          <!-- LookupCount=2 -->
+          <LookupListIndex index="0" value="0"/>
+          <LookupListIndex index="1" value="1"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="1">
+        <FeatureTag value="liga"/>
+        <Feature>
+          <!-- LookupCount=4 -->
+          <LookupListIndex index="0" value="2"/>
+          <LookupListIndex index="1" value="3"/>
+          <LookupListIndex index="2" value="4"/>
+          <LookupListIndex index="3" value="5"/>
+        </Feature>
+      </FeatureRecord>
+      <FeatureRecord index="2">
+        <FeatureTag value="salt"/>
+        <Feature>
+          <!-- LookupCount=1 -->
+          <LookupListIndex index="0" value="6"/>
+        </Feature>
+      </FeatureRecord>
+    </FeatureList>
+    <LookupList>
+      <!-- LookupCount=8 -->
+      <Lookup index="0">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="A" out="A.salt"/>
+          <Substitution in="B" out="B.salt"/>
+          <Substitution in="E" out="E.salt"/>
+          <Substitution in="N" out="N.salt"/>
+          <Substitution in="a" out="a.end"/>
+          <Substitution in="a_x" out="a_x.end"/>
+          <Substitution in="aacute" out="aacute.end"/>
+          <Substitution in="b_s" out="b_s.end"/>
+          <Substitution in="c" out="c.end"/>
+          <Substitution in="d" out="d.end"/>
+          <Substitution in="e" out="e.end"/>
+          <Substitution in="e_x" out="e_x.end"/>
+          <Substitution in="eacute" out="eacute.end"/>
+          <Substitution in="f_u" out="f_u.end"/>
+          <Substitution in="fi" out="fi.end"/>
+          <Substitution in="fl" out="fl.end"/>
+          <Substitution in="g" out="g.end"/>
+          <Substitution in="h" out="h.end"/>
+          <Substitution in="i" out="i.end"/>
+          <Substitution in="i_x" out="i_x.end"/>
+          <Substitution in="iacute" out="iacute.end"/>
+          <Substitution in="ij" out="ij.end"/>
+          <Substitution in="j" out="j.end"/>
+          <Substitution in="l" out="l.end"/>
+          <Substitution in="m" out="m.end"/>
+          <Substitution in="n" out="n.end"/>
+          <Substitution in="o" out="o.end"/>
+          <Substitution in="o_s" out="o_s.end"/>
+          <Substitution in="oacute" out="oacute.end"/>
+          <Substitution in="oacute_s" out="oacute_s.end"/>
+          <Substitution in="p" out="p.salt"/>
+          <Substitution in="s" out="s.end"/>
+          <Substitution in="t" out="t.end"/>
+          <Substitution in="u" out="u.end"/>
+          <Substitution in="u_x" out="u_x.end"/>
+          <Substitution in="uacute" out="uacute.end"/>
+          <Substitution in="x" out="x.end"/>
+          <Substitution in="y" out="y.end"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="1">
+        <LookupType value="3"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <AlternateSubst index="0" Format="1">
+          <AlternateSet glyph="k">
+            <Alternate glyph="k.end"/>
+            <Alternate glyph="k.salt"/>
+          </AlternateSet>
+        </AlternateSubst>
+      </Lookup>
+      <Lookup index="2">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="E">
+            <Ligature components="x" glyph="E_x"/>
+          </LigatureSet>
+          <LigatureSet glyph="F">
+            <Ligature components="i" glyph="F_i"/>
+          </LigatureSet>
+          <LigatureSet glyph="I">
+            <Ligature components="J" glyph="IJ"/>
+          </LigatureSet>
+          <LigatureSet glyph="T">
+            <Ligature components="h" glyph="T_h"/>
+            <Ligature components="i" glyph="T_i"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="3">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=2 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="d"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="z"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="7"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="u"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="1">
+            <Glyph value="z"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="7"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="4">
+        <LookupType value="4"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <LigatureSubst index="0" Format="1">
+          <LigatureSet glyph="a">
+            <Ligature components="x" glyph="a_x"/>
+            <Ligature components="z" glyph="a_z"/>
+          </LigatureSet>
+          <LigatureSet glyph="b">
+            <Ligature components="s,x" glyph="b_s_x"/>
+            <Ligature components="s,z" glyph="b_s_z"/>
+            <Ligature components="s" glyph="b_s"/>
+          </LigatureSet>
+          <LigatureSet glyph="c">
+            <Ligature components="x" glyph="c_x"/>
+            <Ligature components="z" glyph="c_z"/>
+          </LigatureSet>
+          <LigatureSet glyph="e">
+            <Ligature components="x" glyph="e_x"/>
+            <Ligature components="z" glyph="e_z"/>
+          </LigatureSet>
+          <LigatureSet glyph="eacute">
+            <Ligature components="x" glyph="eacute_x"/>
+          </LigatureSet>
+          <LigatureSet glyph="f">
+            <Ligature components="f,i" glyph="ffi"/>
+            <Ligature components="f,l" glyph="ffl"/>
+            <Ligature components="f,t" glyph="f_f_t"/>
+            <Ligature components="i,x" glyph="f_i_x"/>
+            <Ligature components="i,z" glyph="f_i_z"/>
+            <Ligature components="l,x" glyph="f_l_x"/>
+            <Ligature components="l,z" glyph="f_l_z"/>
+            <Ligature components="f" glyph="ff"/>
+            <Ligature components="i" glyph="fi"/>
+            <Ligature components="l" glyph="fl"/>
+            <Ligature components="t" glyph="f_t"/>
+            <Ligature components="u" glyph="f_u"/>
+            <Ligature components="x" glyph="f_x"/>
+          </LigatureSet>
+          <LigatureSet glyph="g">
+            <Ligature components="p" glyph="g_p"/>
+            <Ligature components="x" glyph="g_x"/>
+            <Ligature components="z" glyph="g_z"/>
+          </LigatureSet>
+          <LigatureSet glyph="i">
+            <Ligature components="j" glyph="ij"/>
+            <Ligature components="x" glyph="i_x"/>
+            <Ligature components="z" glyph="i_z"/>
+          </LigatureSet>
+          <LigatureSet glyph="iacute">
+            <Ligature components="x" glyph="iacute_x"/>
+            <Ligature components="z" glyph="iacute_z"/>
+          </LigatureSet>
+          <LigatureSet glyph="j">
+            <Ligature components="x" glyph="j_x"/>
+            <Ligature components="z" glyph="j_z"/>
+          </LigatureSet>
+          <LigatureSet glyph="l">
+            <Ligature components="x" glyph="l_x"/>
+            <Ligature components="z" glyph="l_z"/>
+          </LigatureSet>
+          <LigatureSet glyph="m">
+            <Ligature components="x" glyph="m_x"/>
+            <Ligature components="z" glyph="m_z"/>
+          </LigatureSet>
+          <LigatureSet glyph="n">
+            <Ligature components="z" glyph="n_z"/>
+          </LigatureSet>
+          <LigatureSet glyph="o">
+            <Ligature components="s,x" glyph="o_s_x"/>
+            <Ligature components="s,z" glyph="o_s_z"/>
+            <Ligature components="ae" glyph="o_ae"/>
+            <Ligature components="s" glyph="o_s"/>
+            <Ligature components="x" glyph="o_x"/>
+          </LigatureSet>
+          <LigatureSet glyph="oacute">
+            <Ligature components="s,x" glyph="oacute_s_x"/>
+            <Ligature components="s,z" glyph="oacute_s_z"/>
+            <Ligature components="s" glyph="oacute_s"/>
+            <Ligature components="x" glyph="oacute_x"/>
+          </LigatureSet>
+          <LigatureSet glyph="r">
+            <Ligature components="x" glyph="r_x"/>
+            <Ligature components="z" glyph="r_z"/>
+          </LigatureSet>
+          <LigatureSet glyph="s">
+            <Ligature components="x" glyph="s_x"/>
+            <Ligature components="z" glyph="s_z"/>
+          </LigatureSet>
+          <LigatureSet glyph="t">
+            <Ligature components="x" glyph="t_x"/>
+            <Ligature components="z" glyph="t_z"/>
+          </LigatureSet>
+          <LigatureSet glyph="u">
+            <Ligature components="v" glyph="u_v"/>
+            <Ligature components="x" glyph="u_x"/>
+          </LigatureSet>
+          <LigatureSet glyph="y">
+            <Ligature components="p" glyph="y_p"/>
+            <Ligature components="x" glyph="y_x"/>
+            <Ligature components="z" glyph="y_z"/>
+          </LigatureSet>
+        </LigatureSubst>
+      </Lookup>
+      <Lookup index="5">
+        <LookupType value="6"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=2 -->
+        <ChainContextSubst index="0" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="a"/>
+            <Glyph value="a_x"/>
+            <Glyph value="aacute"/>
+            <Glyph value="b_s"/>
+            <Glyph value="c"/>
+            <Glyph value="d"/>
+            <Glyph value="e"/>
+            <Glyph value="e_x"/>
+            <Glyph value="eacute"/>
+            <Glyph value="f_u"/>
+            <Glyph value="fi"/>
+            <Glyph value="fl"/>
+            <Glyph value="g"/>
+            <Glyph value="h"/>
+            <Glyph value="i"/>
+            <Glyph value="i_x"/>
+            <Glyph value="iacute"/>
+            <Glyph value="ij"/>
+            <Glyph value="j"/>
+            <Glyph value="k"/>
+            <Glyph value="l"/>
+            <Glyph value="m"/>
+            <Glyph value="n"/>
+            <Glyph value="o"/>
+            <Glyph value="o_s"/>
+            <Glyph value="oacute"/>
+            <Glyph value="oacute_s"/>
+            <Glyph value="s"/>
+            <Glyph value="t"/>
+            <Glyph value="u"/>
+            <Glyph value="u_x"/>
+            <Glyph value="uacute"/>
+            <Glyph value="x"/>
+            <Glyph value="y"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=1 -->
+          <LookAheadCoverage index="0" Format="2">
+            <Glyph value="a"/>
+            <Glyph value="a.end"/>
+            <Glyph value="a_x"/>
+            <Glyph value="a_x.end"/>
+            <Glyph value="a_z"/>
+            <Glyph value="aacute"/>
+            <Glyph value="aacute.end"/>
+            <Glyph value="acircumflex"/>
+            <Glyph value="adieresis"/>
+            <Glyph value="ae"/>
+            <Glyph value="agrave"/>
+            <Glyph value="aogonek"/>
+            <Glyph value="aring"/>
+            <Glyph value="atilde"/>
+            <Glyph value="b"/>
+            <Glyph value="b_s"/>
+            <Glyph value="b_s.end"/>
+            <Glyph value="b_s_x"/>
+            <Glyph value="b_s_z"/>
+            <Glyph value="c"/>
+            <Glyph value="c.end"/>
+            <Glyph value="c_x"/>
+            <Glyph value="c_z"/>
+            <Glyph value="cacute"/>
+            <Glyph value="ccaron"/>
+            <Glyph value="ccedilla"/>
+            <Glyph value="ccircumflex"/>
+            <Glyph value="d"/>
+            <Glyph value="d.end"/>
+            <Glyph value="dcroat"/>
+            <Glyph value="dotlessi"/>
+            <Glyph value="dotlessi.end"/>
+            <Glyph value="e"/>
+            <Glyph value="e.end"/>
+            <Glyph value="e_x"/>
+            <Glyph value="e_x.end"/>
+            <Glyph value="e_z"/>
+            <Glyph value="eacute"/>
+            <Glyph value="eacute.end"/>
+            <Glyph value="eacute_x"/>
+            <Glyph value="ecircumflex"/>
+            <Glyph value="edieresis"/>
+            <Glyph value="egrave"/>
+            <Glyph value="eogonek"/>
+            <Glyph value="eth"/>
+            <Glyph value="f"/>
+            <Glyph value="f_f_t"/>
+            <Glyph value="f_i_x"/>
+            <Glyph value="f_i_z"/>
+            <Glyph value="f_l_x"/>
+            <Glyph value="f_l_z"/>
+            <Glyph value="f_t"/>
+            <Glyph value="f_u"/>
+            <Glyph value="f_u.end"/>
+            <Glyph value="f_x"/>
+            <Glyph value="ff"/>
+            <Glyph value="ffi"/>
+            <Glyph value="ffl"/>
+            <Glyph value="fi"/>
+            <Glyph value="fi.end"/>
+            <Glyph value="fl"/>
+            <Glyph value="fl.end"/>
+            <Glyph value="g"/>
+            <Glyph value="g.end"/>
+            <Glyph value="g_p"/>
+            <Glyph value="g_x"/>
+            <Glyph value="g_z"/>
+            <Glyph value="h"/>
+            <Glyph value="h.end"/>
+            <Glyph value="i"/>
+            <Glyph value="i.end"/>
+            <Glyph value="i_x"/>
+            <Glyph value="i_x.end"/>
+            <Glyph value="i_z"/>
+            <Glyph value="iacute"/>
+            <Glyph value="iacute.end"/>
+            <Glyph value="iacute_x"/>
+            <Glyph value="iacute_z"/>
+            <Glyph value="icircumflex"/>
+            <Glyph value="idieresis"/>
+            <Glyph value="igrave"/>
+            <Glyph value="ij"/>
+            <Glyph value="ij.end"/>
+            <Glyph value="j"/>
+            <Glyph value="j.end"/>
+            <Glyph value="j_x"/>
+            <Glyph value="j_z"/>
+            <Glyph value="k"/>
+            <Glyph value="k.end"/>
+            <Glyph value="k.salt"/>
+            <Glyph value="l"/>
+            <Glyph value="l.end"/>
+            <Glyph value="l_x"/>
+            <Glyph value="l_z"/>
+            <Glyph value="lslash"/>
+            <Glyph value="m"/>
+            <Glyph value="m.end"/>
+            <Glyph value="m_x"/>
+            <Glyph value="m_z"/>
+            <Glyph value="mu"/>
+            <Glyph value="n"/>
+            <Glyph value="n.end"/>
+            <Glyph value="n_z"/>
+            <Glyph value="nacute"/>
+            <Glyph value="ntilde"/>
+            <Glyph value="o"/>
+            <Glyph value="o.end"/>
+            <Glyph value="o_ae"/>
+            <Glyph value="o_s"/>
+            <Glyph value="o_s.end"/>
+            <Glyph value="o_s_x"/>
+            <Glyph value="o_s_z"/>
+            <Glyph value="o_x"/>
+            <Glyph value="oacute"/>
+            <Glyph value="oacute.end"/>
+            <Glyph value="oacute_s"/>
+            <Glyph value="oacute_s.end"/>
+            <Glyph value="oacute_s_x"/>
+            <Glyph value="oacute_s_z"/>
+            <Glyph value="oacute_x"/>
+            <Glyph value="ocircumflex"/>
+            <Glyph value="odieresis"/>
+            <Glyph value="oe"/>
+            <Glyph value="ograve"/>
+            <Glyph value="oslash"/>
+            <Glyph value="otilde"/>
+            <Glyph value="p"/>
+            <Glyph value="p.calt"/>
+            <Glyph value="p.salt"/>
+            <Glyph value="q"/>
+            <Glyph value="r"/>
+            <Glyph value="r_x"/>
+            <Glyph value="r_z"/>
+            <Glyph value="s"/>
+            <Glyph value="s.end"/>
+            <Glyph value="s_x"/>
+            <Glyph value="s_z"/>
+            <Glyph value="sacute"/>
+            <Glyph value="scaron"/>
+            <Glyph value="t"/>
+            <Glyph value="t.end"/>
+            <Glyph value="t_x"/>
+            <Glyph value="t_z"/>
+            <Glyph value="thorn"/>
+            <Glyph value="u"/>
+            <Glyph value="u.end"/>
+            <Glyph value="u_v"/>
+            <Glyph value="u_x"/>
+            <Glyph value="u_x.end"/>
+            <Glyph value="uacute"/>
+            <Glyph value="uacute.end"/>
+            <Glyph value="ucircumflex"/>
+            <Glyph value="udieresis"/>
+            <Glyph value="ugrave"/>
+            <Glyph value="v"/>
+            <Glyph value="w"/>
+            <Glyph value="x"/>
+            <Glyph value="x.end"/>
+            <Glyph value="y"/>
+            <Glyph value="y.end"/>
+            <Glyph value="y_p"/>
+            <Glyph value="y_x"/>
+            <Glyph value="y_z"/>
+            <Glyph value="yacute"/>
+            <Glyph value="ydieresis"/>
+            <Glyph value="z"/>
+            <Glyph value="zacute"/>
+            <Glyph value="zcaron"/>
+            <Glyph value="zdotaccent"/>
+          </LookAheadCoverage>
+          <!-- SubstCount=0 -->
+        </ChainContextSubst>
+        <ChainContextSubst index="1" Format="3">
+          <!-- BacktrackGlyphCount=0 -->
+          <!-- InputGlyphCount=1 -->
+          <InputCoverage index="0" Format="1">
+            <Glyph value="a"/>
+            <Glyph value="a_x"/>
+            <Glyph value="aacute"/>
+            <Glyph value="b_s"/>
+            <Glyph value="c"/>
+            <Glyph value="d"/>
+            <Glyph value="e"/>
+            <Glyph value="e_x"/>
+            <Glyph value="eacute"/>
+            <Glyph value="f_u"/>
+            <Glyph value="fi"/>
+            <Glyph value="fl"/>
+            <Glyph value="g"/>
+            <Glyph value="h"/>
+            <Glyph value="i"/>
+            <Glyph value="i_x"/>
+            <Glyph value="iacute"/>
+            <Glyph value="ij"/>
+            <Glyph value="j"/>
+            <Glyph value="k"/>
+            <Glyph value="l"/>
+            <Glyph value="m"/>
+            <Glyph value="n"/>
+            <Glyph value="o"/>
+            <Glyph value="o_s"/>
+            <Glyph value="oacute"/>
+            <Glyph value="oacute_s"/>
+            <Glyph value="s"/>
+            <Glyph value="t"/>
+            <Glyph value="u"/>
+            <Glyph value="u_x"/>
+            <Glyph value="uacute"/>
+            <Glyph value="x"/>
+            <Glyph value="y"/>
+          </InputCoverage>
+          <!-- LookAheadGlyphCount=0 -->
+          <!-- SubstCount=1 -->
+          <SubstLookupRecord index="0">
+            <SequenceIndex value="0"/>
+            <LookupListIndex value="7"/>
+          </SubstLookupRecord>
+        </ChainContextSubst>
+      </Lookup>
+      <Lookup index="6">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="2">
+          <Substitution in="A" out="A.salt"/>
+          <Substitution in="B" out="B.salt"/>
+          <Substitution in="E" out="E.salt"/>
+          <Substitution in="N" out="N.salt"/>
+          <Substitution in="k" out="k.salt"/>
+          <Substitution in="p" out="p.salt"/>
+        </SingleSubst>
+      </Lookup>
+      <Lookup index="7">
+        <LookupType value="1"/>
+        <LookupFlag value="0"/>
+        <!-- SubTableCount=1 -->
+        <SingleSubst index="0" Format="1">
+          <Substitution in="a" out="a.end"/>
+          <Substitution in="a_x" out="a_x.end"/>
+          <Substitution in="aacute" out="aacute.end"/>
+          <Substitution in="b_s" out="b_s.end"/>
+          <Substitution in="c" out="c.end"/>
+          <Substitution in="d" out="d.end"/>
+          <Substitution in="e" out="e.end"/>
+          <Substitution in="e_x" out="e_x.end"/>
+          <Substitution in="eacute" out="eacute.end"/>
+          <Substitution in="f_u" out="f_u.end"/>
+          <Substitution in="fi" out="fi.end"/>
+          <Substitution in="fl" out="fl.end"/>
+          <Substitution in="g" out="g.end"/>
+          <Substitution in="h" out="h.end"/>
+          <Substitution in="i" out="i.end"/>
+          <Substitution in="i_x" out="i_x.end"/>
+          <Substitution in="iacute" out="iacute.end"/>
+          <Substitution in="ij" out="ij.end"/>
+          <Substitution in="j" out="j.end"/>
+          <Substitution in="k" out="k.end"/>
+          <Substitution in="l" out="l.end"/>
+          <Substitution in="m" out="m.end"/>
+          <Substitution in="n" out="n.end"/>
+          <Substitution in="o" out="o.end"/>
+          <Substitution in="o_s" out="o_s.end"/>
+          <Substitution in="oacute" out="oacute.end"/>
+          <Substitution in="oacute_s" out="oacute_s.end"/>
+          <Substitution in="s" out="s.end"/>
+          <Substitution in="t" out="t.end"/>
+          <Substitution in="u" out="u.end"/>
+          <Substitution in="u_x" out="u_x.end"/>
+          <Substitution in="uacute" out="uacute.end"/>
+          <Substitution in="x" out="x.end"/>
+          <Substitution in="y" out="y.end"/>
+        </SingleSubst>
+      </Lookup>
+    </LookupList>
+  </GSUB>
+
+</ttFont>
