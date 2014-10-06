@@ -1,0 +1,7 @@
+commit: HEAD
+process_files: [LobsterTwo-Bold.ttf.ttx, LobsterTwo-Regular.ttf.ttx, LobsterTwo-Italic.ttf.ttx,
+  LobsterTwo-BoldItalic.ttf.ttx, src/LobsterTwo-BoldItalic.otf.ttx, src/LobsterTwo-Bold.otf.ttx,
+  src/LobsterTwo-Regular.otf.ttx, src/LobsterTwo-Italic.otf.ttx]
+pyftsubset: --notdef-outline --name-IDs=* --hinting
+subset: [latin]
+ttfautohint: -l 7 -r 28 -G 50 -x 13 -w "G"
